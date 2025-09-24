@@ -1,6 +1,6 @@
-package com.winteamiot.enums.annotation;
+package com.github.enums.annotation;
 
-import com.winteamiot.enums.config.DictionaryImportSelector;
+import com.github.enums.config.DictionaryImportSelector;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.ElementType;

@@ -1,4 +1,4 @@
-package com.winteamiot.enums.scan;
+package com.github.enums.scan;
 
 /**
  * 类型

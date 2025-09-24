@@ -1,11 +1,11 @@
-package com.winteamiot.enums.config;
+package com.github.enums.config;
 
 import java.util.Map;
 
 import org.springframework.context.annotation.ImportSelector;
 import org.springframework.core.type.AnnotationMetadata;
 
-import com.winteamiot.enums.annotation.EnableDictionary;
+import com.github.enums.annotation.EnableDictionary;
 
 /**
  * 字典功能导入选择器

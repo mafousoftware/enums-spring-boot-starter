@@ -1,6 +1,6 @@
-package com.winteamiot.enums.controller;
+package com.github.enums.controller;
 
-import com.winteamiot.enums.scan.Type;
+import com.github.enums.scan.Type;
 
 import java.util.List;
 

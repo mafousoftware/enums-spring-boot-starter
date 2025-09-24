@@ -50,32 +50,32 @@ public class Application {
 ```java
 package com.example.enums;
 
-import com.winteamiot.enums.annotation.EnumDictionary;
-import com.winteamiot.enums.scan.Valuable;
+import annotation.com.github.enums.EnumDictionary;
+import scan.com.github.enums.Valuable;
 
 @EnumDictionary("用户状态")
 public enum UserStatus implements Valuable {
-    ACTIVE(1, "激活"),
-    INACTIVE(0, "未激活"),
-    LOCKED(-1, "锁定");
+   ACTIVE(1, "激活"),
+   INACTIVE(0, "未激活"),
+   LOCKED(-1, "锁定");
 
-    private final int code;
-    private final String description;
+   private final int code;
+   private final String description;
 
-    UserStatus(int code, String description) {
-        this.code = code;
-        this.description = description;
-    }
+   UserStatus(int code, String description) {
+      this.code = code;
+      this.description = description;
+   }
 
-    @Override
-    public Object getCode() {
-        return code;
-    }
+   @Override
+   public Object getCode() {
+      return code;
+   }
 
-    @Override
-    public Object getValue() {
-        return description;
-    }
+   @Override
+   public Object getValue() {
+      return description;
+   }
 }
 ```
 

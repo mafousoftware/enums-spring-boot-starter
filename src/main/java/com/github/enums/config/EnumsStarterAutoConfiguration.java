@@ -1,12 +1,11 @@
-package com.winteamiot.enums.config;
+package com.github.enums.config;
 
+import com.github.enums.controller.EnumsController;
+import com.github.enums.scan.EnumsScanner;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import com.winteamiot.enums.controller.EnumsController;
-import com.winteamiot.enums.scan.EnumsScanner;
 
 /**
  * 枚举配置

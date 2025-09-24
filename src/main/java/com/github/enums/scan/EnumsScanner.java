@@ -1,6 +1,6 @@
-package com.winteamiot.enums.scan;
+package com.github.enums.scan;
 
-import com.winteamiot.enums.annotation.EnumDictionary;
+import com.github.enums.annotation.EnumDictionary;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider;
 import org.springframework.core.type.filter.AnnotationTypeFilter;

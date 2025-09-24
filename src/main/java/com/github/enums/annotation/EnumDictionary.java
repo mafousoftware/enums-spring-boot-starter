@@ -1,4 +1,4 @@
-package com.winteamiot.enums.annotation;
+package com.github.enums.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

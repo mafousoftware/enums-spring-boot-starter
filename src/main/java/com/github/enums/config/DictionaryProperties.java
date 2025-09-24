@@ -1,4 +1,4 @@
-package com.winteamiot.enums.config;
+package com.github.enums.config;
 
 import java.util.concurrent.ConcurrentHashMap;
 
