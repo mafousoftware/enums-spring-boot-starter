@@ -23,7 +23,7 @@
 
 ```xml
 <dependency>
-    <groupId>com.winteam.iot</groupId>
+    <groupId>com.github</groupId>
     <artifactId>enums-springboot-starter</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 </dependency>
@@ -335,7 +335,7 @@ spring:
 
 ## 许可证
 
-本项目采用 MIT 许可证，详情请参见 [LICENSE](LICENSE) 文件。
+本项目采用 Apache-2.0 许可证，详情请参见 [LICENSE](LICENSE) 文件。
 
 ## 贡献
 
